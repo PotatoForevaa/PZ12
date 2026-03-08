@@ -1,0 +1,1 @@
+При рефакторинге OrderProcessor был перегружен и не соответствовал SRP. Были созданы методы EnsureDatabaseConnection, SaveOrder, SendEmailIfNeeded, упрощена структура try/catch, что сделало код более читаемым и поддерживаемым, при этом сохранив исходный функционал 
